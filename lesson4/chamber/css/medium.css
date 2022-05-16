@@ -40,5 +40,8 @@
         display: flex;
         justify-content: space-around;
     }
+    .section1 {
+        display: flex;
+    } 
 
 }

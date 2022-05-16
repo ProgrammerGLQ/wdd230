@@ -85,6 +85,10 @@ body {
     margin: 0;
 }
 
+#final {
+    background-color: #FCBF49
+}
+
 header {
     background-color: #fff;
     padding: 5px 0;
@@ -181,14 +185,16 @@ footer picture img {
 .my-dates {
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
-    border-top: 2px solid #bbb;
+    border-top: 2px solid rgb(84, 97, 84);
     margin: 15px;
+    color: white;
 
 }
 
 #lastModified {
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
+    color: white;
 }
 
 /* colors */
