@@ -1,0 +1,306 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: #eee;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+    font-size: .8rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav ul li.active a {
+    background-color: rgb(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #FFF7F2;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#final {
+    background-color: #FCBF49
+}
+
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo picture img {
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+}
+
+#htmldate {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 1px solid #bbb;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+
+.m {
+    letter-spacing: 1pt;
+    color: forestgreen;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+nav {
+    text-align: right;
+}
+
+
+/* start grid layout */
+.grid {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid div {
+    border: 2px solid;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.box5 {
+    display: none;
+}
+
+.box6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    height: 100%;
+    grid-row: 5/7;
+}
+
+.box6 div:nth-child(3) {
+    display: none;
+}
+
+/* finish grid */
+footer {
+    text-align: center;
+}
+
+footer picture img {
+    border-radius: 100px;
+}
+
+.my-dates {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    border-top: 2px solid rgb(84, 97, 84);
+    margin: 15px;
+    color: white;
+
+}
+
+#lastModified {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* colors */
+header,
+footer {
+    background-color: #FCBF49;
+    color: #FFF7F2;
+}
+
+nav {
+    background-color: #D62828;
+}
+
+nav a {
+    color: #FCBF49;
+}
+
+nav a:hover {
+    background-color: #FFF7F2;
+    color: #03071E;
+}
+
+main {
+    background-color: #DDFFFD
+}
+
+#htmldate {
+    background-color: #DDFFFD
+}
+/* today */
+
+.banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: auto;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    opacity: 0.8;
+    color: rgb(202, 170, 170)
+}
+
+.box1 picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.box1 h2 {
+    position: absolute;
+    color: white;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 5px;
+  }
+
+  .box1 {
+    position: relative;
+    padding: 0;}
+
+  .box1 button {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: larger;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 100;
+    background-color: red;
+    color: white;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    text-align: center;
+}
+
+.join{
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 10px;
+
+}
+
+#weather{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+/* week 6 */
+
+#weather-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none
+}
+
+#weather-flex p {
+    font-weight: bold;
+}
