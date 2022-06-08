@@ -1,3 +1,5 @@
+// calculate wind chill
+
 const tempCel = document.querySelector("#temp").innerHTML;
 const speed = document.querySelector("#windspeed").innerHTML;
 
