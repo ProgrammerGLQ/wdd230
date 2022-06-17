@@ -328,3 +328,68 @@ color: white;
 footer{
     padding: 1rem;
 }
+/* lesson 8 */
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #DDFFFD
+}
+form fieldset {
+    margin: 5rem;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 50%;
+    min-width: 40%;
+}
+
+form legend{
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0.5 rem;
+}
+
+fieldset label {
+    display: block;
+    font-size: 1em;
+    padding: 10px 0;
+  }
+.fieldset1 label input,.fieldset3 label textarea, .fieldset3 label input {
+    display: block;
+    width: 90%;
+    padding: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.1 );
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+}
+
+.membershipLevels{
+    margin: 5rem;
+    padding: 0.5rem 2%;
+    border: 1px solid #bbb;
+    text-align: center;
+}
+.membershipLevels p{
+    margin: 2rem;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: red;
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 2rem auto;
+
+}
+form label input:hover, .submit:hover {
+    background-color: white;
+  }
+.thanks{
+    text-align: center;
+}
