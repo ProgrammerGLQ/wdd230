@@ -1,0 +1,50 @@
+body {
+    background-color: #450000; 
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+
+p, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #A2A0A0;
+}
+h1{
+    color: #CBB000;
+    font-size: 5rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+}
+.cards section{
+    display: flex;
+    flex-direction: column;
+    background-color: #343434;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: solid black;
+
+}
+.cards section h2{
+    color: #CBB000;
+}
+.cards section:nth-child(even){
+    background-color: #807474;
+}
+img{
+    width: 100%;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #CBB000 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
