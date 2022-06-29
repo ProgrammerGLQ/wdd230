@@ -5,7 +5,7 @@ async function getProphets() {
     let response = await fetch(URL);
     if (response.ok) {
         let data = await response.json();
-        //console.log(data); 
+        console.log(data); 
         buildProphetCards(data);
     } else {
         throw Error(response.statusText);
@@ -26,7 +26,7 @@ function buildProphetCards(data) {
         p.innerHTML = `Location of Birth: <strong>${prophet.birthplace}</strong>`;
         birthdate.innerHTML = `Birth Date: ${prophet.birthdate}`;
         img.setAttribute("src",prophet.imageurl);
-        img.setAttribute("alt", `Picture of president ${fullName}`)
+        img.setAttribute("alt", `Picture of president ${fullName} - ${prophet.order} Latter-day President`)
         img.setAttribute("loading", "lazy");
 
 
