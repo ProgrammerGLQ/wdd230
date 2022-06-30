@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Home cooking",
+            "address": "17128 Wilkinson Place",
+            "phone": "1-378-743-2234",
+            "url": "www.confectionarykingdom.com",
+            "image": "images/1.png",
+            "membership": "Non-members"
+        },
+        {
+            "name": "Childen`s clothing",
+            "address": "68A Hill Ln, Southampton SO15 5BA",
+            "phone": "023 8167 1725",
+            "url": "www.Childenclothing.com",
+            "image": "images/2.png",
+            "membership": "Non-members"
+        },
+        {
+            "name": "Zeus",
+            "address": "5431 Prosacco Bridge",
+            "phone": "+15783536620",
+            "url": "www.Zeus.com",
+            "image": "images/3.png",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Alpha",
+            "address": "2937 Aglae Greens",
+            "phone": "994-809-7381 ",
+            "url": "www.Alpha.com",
+            "image": "images/4.png",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Barber shop Thor",
+            "address": "2937 Aglae Greens",
+            "phone": "023 6873 1874",
+            "url": "www.BarbershopThor.com",
+            "image": "images/5.png",
+            "membership": "Silver membership"
+        },
+        {
+            "name": "High quality",
+            "address": "81762 Filomena Brooks",
+            "phone": "(354) 439-1565",
+            "url": "www.Highquality.com",
+            "image": "images/6.png",
+            "membership": "Silver membership"
+        },
+        {
+            "name": "Your best vacations",
+            "address": "859 Leann Lodge Apt. 115",
+            "phone": "557-966-7925 ",
+            "url": "www.Yourbestvacations.com",
+            "image": "images/7.png",
+            "membership": "Gold membership"
+        },
+        {
+            "name": "Because you are a princess",
+            "address": "6731 Norma Point Apt. 237",
+            "phone": "381.622.7673 ",
+            "url": "www.Because-you-are-a-princess.com",
+            "image": "images/8.png",
+            "membership": "Gold membership"
+        },
+        {
+            "name": "Sushi man",
+            "address": "227 Rosemarie Ramp Suite 645",
+            "phone": "+12984982272",
+            "url": "www.Sushi-man.com",
+            "image": "images/9.png",
+            "membership": "Gold membership"
+        }
+    ]
+}

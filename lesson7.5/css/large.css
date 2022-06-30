@@ -63,4 +63,23 @@
         display: none;
 
     }
+        /*---lesson 9---*/
+        .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .directory section {
+        width: 85%;
+        margin: 1rem auto;
+    }
+    .list section {
+        padding: 1rem;
+        grid-template-columns: 15% repeat(4, 1fr);
+    }
+    /*---lesson 9 ? ---*/
+    #contact-main form {
+        margin-left: 10rem;
+    }
+    #contact-main section {
+        margin-right: 10rem;
+    }
 }

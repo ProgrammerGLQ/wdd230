@@ -393,3 +393,55 @@ form label input:hover, .submit:hover {
 .thanks{
     text-align: center;
 }
+/* week 9 Directory */
+.directory button {
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #003049;
+    padding: 1.2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.directory {
+    text-align: center;
+}
+.list section {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    font-size: .8rem;
+    align-items: center;
+    border: 2px solid rgb(155, 155, 155);
+    margin: 1rem;
+}
+.cards section,
+.list section {
+    padding-bottom: 1rem;
+}
+.cards img {
+    width: 70%;
+}
+.list img {
+    display: none;
+}
+.cards p,
+.cards a {
+    font-size: .9rem;
+    margin: 1rem auto;
+}
+.list a {
+    font-size: 0.8rem;
+}
+.cards p {
+    padding-bottom: 0.5rem;
+}
+.list p {
+    display: none;
+}
+main section .cards section{
+    border: 2px solid rgb(155, 155, 155);
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
