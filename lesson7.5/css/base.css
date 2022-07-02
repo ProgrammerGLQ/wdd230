@@ -446,7 +446,7 @@ main section .cards section{
     padding: 1rem;
 }
 /* lesson 10 */
-#weather-flex figcaption {
+#weather-flex figure figcaption {
     text-transform: capitalize;
 }
 #weather-icon{
