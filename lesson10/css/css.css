@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: #490202;
+}
+h1{
+    color:#BAB227;
+    font-size: 3rem;
+}
+body div{
+    padding: 1rem;
+    border: #6A6A6A;
+    border-radius: 1rem;
+    background-color: #1B1B1B;
+    text-align: center;
+    margin: 4rem;
+}
+p, h2, figcaption{
+    color: #D8D8D8;
+}
+p{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+figcaption {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
