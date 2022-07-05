@@ -43,5 +43,10 @@
     .section1 {
         display: flex;
     } 
+    .Nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+    }
 
 }
