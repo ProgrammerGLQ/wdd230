@@ -1,5 +1,5 @@
 const requestURL = "../js/json/data.json";
-
+console.log(requestURL)
 fetch(requestURL)
     .then(function (response) {
         return response.json();

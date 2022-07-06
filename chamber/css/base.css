@@ -452,3 +452,10 @@ main section .cards section{
 #weather-icon{
     width: 4rem;
 }
+/* lesson 11 */
+.spotlights section img {
+    max-width: 60%;
+}
+.spot2, .spot3 {
+    border-top: 1px solid black;
+}
