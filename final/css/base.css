@@ -1,0 +1,285 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    font-family: 'Edu VIC WA NT Beginner';
+    font-size: 2rem;
+    text-align: center;
+}
+p, a, q, legend, fieldset, li{
+    font-family: 'Source Sans Pro';
+    font-size: 1.1rem;
+}
+/* HEADER START */
+header, footer {
+    background-color: #2A87A1;
+    color: #000000;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header section p{
+    font-size: 1.7rem;
+}
+.logo {
+    width: 130px;
+    border-radius: 100px;
+}
+header img {
+    padding: .4rem;
+}
+
+/* HEADER END */
+/* MENU START*/
+#menu-button span:nth-child(1) {
+    display: block;
+}
+
+#menu-button span:nth-child(2) {
+    display: none;
+}
+
+#menu-button.open span:nth-child(1) {
+    display: none;
+}
+
+#menu-button.open span:nth-child(2) {
+    display: block;
+}
+/* MENU END*/
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+nav {
+    background-color: #004FE2;
+}
+nav button {
+    margin: .5rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+}
+/* nav ul li.active a {
+    background-color: rgb(0, 0, 0, 0.2);
+    color: #fff;
+} */
+nav ul li a:hover, a button:hover{
+    background-color: #ACDFFF;
+}
+q {
+    letter-spacing: 1pt;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+/* body */
+main h1{
+    margin: 0%;
+    padding: 1rem;
+}
+main {
+    background-color: #ACDFFF;
+}
+main picture{
+    display: flex;
+    justify-content: center;
+}
+
+.home1 {
+    position: relative;
+    padding: 0;}
+.home1 a button {
+    position: absolute;
+    top: 1rem;
+    right: 50%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 100;
+    background-color: #2A87A1;
+}
+.home-section p{
+    text-align: center;
+    margin: 2rem;
+}
+
+.icons, .temples div, .cards section {
+    border: 1px solid;
+    margin: 1rem;
+    border-radius: 10px
+}
+.Temple-1 img, .Temple-2 img, .Temple-3 img, .cards section img{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;    
+}
+.cards section p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#result1, #result2, #result3, #result4{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+.desc{
+    text-transform:capitalize
+}
+.temples div p{
+    margin: 1rem;
+}
+.weather{
+    font-family: 'Edu VIC WA NT Beginner';
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.icons p{
+    text-align: center;
+}
+.icons section{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer */
+.home-grid {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+.dates {
+    border-top: 2px solid rgb(84, 97, 84);
+    margin: 15px;
+    color: #000000;
+}
+#modified {
+    color: #000000;
+    text-align: center;
+}
+/* Footer */
+/* temple */
+#b1, #b2, #b3, #b4, .submit {
+    display: block;
+    margin: 0px auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 100;
+    background-color: #2A87A1;
+    margin-top: 1rem;
+}
+.submit{
+    margin-top: -2rem;
+    padding: 1rem;
+}
+#b1:hover, #b2:hover, #b3:hover, #b4:hover {
+    background-color: #ACDFFF;
+}
+/* reservation */
+.fieldset1, .fieldset2{
+    display: block;
+    margin: 0px auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+form fieldset, .fieldset1 {
+    border: 1px solid #4A7BD6;
+    border-radius: 10px;
+    max-width: 70%;
+    min-width: 40%;
+}
+.fieldset1 label input {
+    display: block;
+    width: 90%;
+    padding: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.1 );
+    font-size: 1rem;
+    border: solid 1px #4A7BD6;
+    border-radius: 4px;
+}
+fieldset label {
+    display: block;
+    padding: 10px;
+  }
+form label input:hover, .submit:hover {
+    background-color: white;
+  }
+main p{
+    margin: 0%;
+} 
+/*  */
+.services section{
+    display: block;
+    margin: 0px auto;
+    border: 1px solid;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.services section ul li{
+    font-size: 1.1rem;
+    margin: .5rem;
+}
+.services_btn{
+    display: flex;
+    justify-content: space-around;
+}
+.services_btn a button{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 100;
+    background-color: #4A7BD6;
+    margin-top: 1rem;
+}
+.reception p {
+    border: 1px solid;
+    margin: 3rem;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    padding: 2rem;
+    line-height: 150%;
+}
+.reservation1 img{
+    display: block;
+    margin: 0px auto;
+}
+.reservation1 p{
+    margin: 2rem;
+}

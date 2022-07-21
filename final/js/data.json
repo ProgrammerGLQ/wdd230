@@ -1,0 +1,52 @@
+{
+    "Temples": [
+        {
+            "name": "Albuquerque New Mexico Temple",
+            "image": "../images/new_mexico_temple.jpg",
+            "address": "10301 San Francisco Rd NE Albuquerque NM 87122-3437 United States",
+            "telephone": "(1) 505-822-5110",
+            "email": "ALBUQ-OFF@ChurchofJesusChrist.org",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby ",
+            "history": "4 April 1997 Announced, 20 June 1998 Groundbreaking, 5 March 2000 Dedicated",
+            "ordinance_schedule":"9:00, 11:00, 14:00, 16:00, 18:00",
+            "session_schedule":"8:00, 10:00, 15:00, 17:00, 19:00",
+            "temple_closure_schedule":"Saturday, 1 April 2023. Monday, 3 April 2023 - Monday, 17 April 2023. Tuesday, 4 July 2023. Saturday, 30 September 2023. Monday, 2 October 2023 - Monday, 16 October 2023. Wednesday, 22 November 2023 (Limited Operations). Thursday, 23 November 2023"
+        },
+        {
+            "name": "Anchorage Alaska Temple",
+            "image": "../images/alaska_temple.jpg",
+            "address": "13161 Brayton Dr Anchorage AK 99516 United States",
+            "telephone": "(1) 907-348-7890",
+            "email": "Temple-Alaska@ChurchofJesusChrist.org",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history": "4 October 1997. Announced. 17 April 1998. Groundbreaking. 9 January 1999. Dedicated — dedicatory prayer. 8 February 2004. Rededicated —",
+            "ordinance_schedule":"9:00, 11:00, 14:00, 16:00, 18:00",
+            "session_schedule":"8:00, 10:00, 15:00, 17:00, 19:00",
+            "temple_closure_schedule":"Monday, 20 March 2023 - Monday, 3 April 2023. Monday, 18 September 2023 - Monday, 2 October 2023"
+        },
+        {
+            "name": "Apia Samoa Temple",
+            "image": "../images/samoa_temple.jpg",
+            "address": "Vaitele Street Pesega Apia, Samoa",
+            "telephone": "(685) 64-230",
+            "email": "Samoa-th@ChurchofJesusChrist.org",
+            "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "15 October 1977 Announced. 19 February 1981 Groundbreaking. 5 August 1983 Dedicated — dedicatory prayer. 4 September 2005 Rededicated — dedicatory prayer",
+            "ordinance_schedule":"9:00, 11:00, 14:00, 16:00, 18:00",
+            "session_schedule":"8:00, 10:00, 15:00, 17:00, 19:00",
+            "temple_closure_schedule":"Monday, 6 March 2023 - Monday, 20 March 2023. Monday, 28 August 2023 - Monday, 11 September 2023"
+        },
+        {
+            "name": "Arequipa Peru Temple",
+            "image": "../images/arequipa_temple.jpg",
+            "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
+            "telephone": "(51) 54-640-300",
+            "email": "arequipa-pr@ChurchofJesusChrist.org",
+            "services": "No clothing rental available. No cafeteria available. No patron housing available. Distribution center nearby",
+            "history": "6 October 2012 Announced. 4 March 2017 Groundbreaking. 15 December 2019 Dedicated — dedicatory prayer",
+            "ordinance_schedule":"9:00, 11:00, 14:00, 16:00, 18:00",
+            "session_schedule":"8:00, 10:00, 15:00, 17:00, 19:00",
+            "temple_closure_schedule":"Thursday, 28 July 2022 - Friday, 29 July 2022. Monday, 1 August 2022 - Monday, 15 August 2022. Saturday, 1 October 2022. Saturday, 24 December 2022. Saturday, 31 December 2022"
+        }
+    ]
+}

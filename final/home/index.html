@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Home page ">
+    <!-- STYLE SHEETS -->
+    <!-- normalize -->
+    <link href="../css/normalize.css" rel="stylesheet" />
+    <!-- base -->
+    <link href="../css/base.css" rel="stylesheet" />
+    <!-- medium -->
+    <link href="../css/medium.css" rel="stylesheet" />
+    <!-- large -->
+    <link href="../css/large.css" rel="stylesheet" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href=""><img class="logo" src="../images/logo.png" alt="The logo" /></a>
+        <section>
+            <p>Temple Inn & Suites</p>
+            <q>The best hotels</q>
+        </section>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Facebook logo" /></a>
+            <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="instagram logo" /></a>
+        </div>
+    </header>
+    <!-- NAVIGATION  -->
+    <nav>
+        <button id="menu-button"><span>&#9776;</span><span>X</span></button>
+        <ul id="nav">
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../temple/temple.html">Temple</a></li>
+            <li><a href="../reservation/reservation.html">Reservation</a></li>
+            <li><a href="../services/services.html">Services</a></li>
+        </ul>
+    </nav>
+    <!-- Body  -->
+    <main>
+        <h1>Home</h1>
+        <div class="home1">
+            <picture>
+                <source srcset="../images/home-large.jpg" media="(min-width: 800px)">
+                <source srcset="../images/home-medium.jpg" media="(min-width: 600px)">
+                <img src="../images/home-small.jpg" alt="images of our hotel">
+            </picture>
+            <a href="../reservation/reservation.html"><button>Make your reservation!</button></a>
+
+        </div>
+        <section class="home-section">
+            <h2>Who we are?</h2>
+            <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and
+                manages specialized hotel accommodations near temple locations of The Church of Jesus
+                Christ of Latter-day Saints around the world.</p>
+        </section>
+
+        <section class="home-grid">
+            <section class="weather-section">
+                <div class="icons">
+                    <section>
+                        <p class="weather">Today</p>
+                        <div class="image"><img src="#" class="imgClass" id="img1"></div>
+                    </section>
+                    <p class="desc" id="day1desc">Loading...</p>
+                    <p class="humidity" id="day1humidity">Loading...</p>
+                    <p class="temp" id="day1weather">Loading...</p>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="maxValues" id="day1Max">Loading...</p>
+                </div>
+                <div class="icons">
+                    <section>
+                        <p class="weather" id="day2">Tomorrow</p>
+                        <div class="image"><img src="#" class="imgClass" id="img2"></div>
+                    </section>
+                    <p class="desc" id="day2desc">Loading...</p>
+                    <p class="humidity" id="day2humidity">Loading...</p>
+                    <p class="temp" id="day2weather">Loading...</p>
+                    <p class="minValues" id="day2Min">Loading...</p>
+                    <p class="maxValues" id="day2Max">Loading...</p>
+                </div>
+                <div class="icons">
+                    <section>
+                        <p class="weather" id="day3">The day after tomorrow</p>
+                        <div class="image"><img src="#" class="imgClass" id="img3"></div>
+                    </section>
+                    <p class="desc" id="day3desc">Loading...</p>
+                    <p class="humidity" id="day3humidity">Loading...</p>
+                    <p class="temp" id="day3weather">Loading...</p>
+                    <p class="minValues" id="day3Min">Loading...</p>
+                    <p class="maxValues" id="day3Max">Loading...</p>
+                </div>
+            </section>
+
+            <section class="temples">
+                <div class="Temple-1">
+                    <h3>Aba Nigeria Temple</h3>
+                    <img src="../images/nigeria.jpg" alt="Nigeria Temple">
+                    <p><strong>Address: </strong>72-80 Okpu-Umuobo Rd Aba Abia State, Nigeria</p>
+                    <p><strong>Telephone: </strong> (234) 80-3903-4810</p>
+                </div>
+                <div class="Temple-2">
+                    <h3>Abidjan Ivory Coast Temple</h3>
+                    <img src="../images/abidjan.jpg" alt="">
+                    <p><strong>Address: </strong>Ilot 118 Riviera, Abidjan, Costa de Marfil</p>
+                </div>
+                <div class="Temple-3">
+                    <h3>Columbia River Washington Temple</h3>
+                    <img src="../images/columbia.jpg" alt="">
+                    <p><strong>Address: </strong>969 Gage Blvd Richland WA 99352-7777 United States</p>
+                    <p><strong>Telephone: </strong> (1) 509-628-0990</p>
+                </div>
+
+            </section>
+    </main>
+    <!-- FOOTER  -->
+    <footer>
+        <section>
+            <div class="section1">
+                <a href="../home/index.html"><img class="logo" src="../images/logo.png" alt="The logo" /></a>
+                <div>
+                    <p>The best hotels</p>
+                    <p>Bethesda, MD</p>
+                </div>
+            </div>
+            <div class="section2">
+                <p>Contact Us</p>
+                <p>TempleInn@hotmail.com</p>
+                <p>+(123) 4567-8910</p>
+                <a
+                    href="https://www.google.com.ar/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"><img
+                        src="../images/map.png" alt="picture of a map"></a>
+                <br>
+                <a
+                    href="https://www.google.com.ar/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Click
+                    me to know our location on the map</a>
+            </div>
+        </section>
+        <div class="dates">
+            <p>Guillermo Quinteros</p>
+            <p>Final Project</p>
+            <p>WDD 230</p>
+        </div>
+        <div id="modified"></div>
+    </footer>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/weather.js"></script>
+</body>
+
+</html>
