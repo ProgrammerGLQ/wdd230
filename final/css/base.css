@@ -287,3 +287,6 @@ main p{
 .reservation1 p{
     margin: 2rem;
 }
+.center{
+    text-align: center;
+}
