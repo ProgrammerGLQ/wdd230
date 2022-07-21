@@ -115,7 +115,7 @@ main picture{
 .home1 {
     position: relative;
     padding: 0;}
-.home1 a button {
+.home1 a {
     position: absolute;
     top: 1rem;
     right: 50%;
@@ -124,6 +124,8 @@ main picture{
     cursor: pointer;
     font-weight: 100;
     background-color: #2A87A1;
+    color: #000000;
+    text-decoration: none;
 }
 .home-section p{
     text-align: center;
@@ -260,13 +262,15 @@ main p{
     display: flex;
     justify-content: space-around;
 }
-.services_btn a button{
+.services_btn a{
     padding: 0.5rem;
     border-radius: 1rem;
     cursor: pointer;
     font-weight: 100;
     background-color: #4A7BD6;
     margin-top: 1rem;
+    color: #000000;
+    text-decoration: none;
 }
 .reception p {
     border: 1px solid;
